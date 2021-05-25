@@ -17,7 +17,10 @@ class App extends Component {
       </section>
       <footer>
           <div>boa sorte para suas futuras aventuras! Vejo você por aí.</div>
-          <div> <audio ref="audio_tag" src={music} controls autoPlay loop/></div>
+          <div> 
+            <audio ref="audio_tag" src={"https://cdn.sndup.net/32hb/src_music.mp3?token=ZguwPOoZ1x5kKYCAVXsfzeJ3v_0oK7o3_8FIeCzJPGk&token_path=%2F32hb%2F&expires=1621942947"} controls autoPlay loop/>
+            
+          </div>
       </footer>
     </div>
   );
