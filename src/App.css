@@ -32,14 +32,21 @@ section{
   background-color: #282c34;
 }
 
+section > iframe > html:not(root) body {
+  background: black !important;
+}
+
 footer{
   min-width: 720px;
   min-height: 40vh;
   font-size: 65px;
-  padding: 20px;
+  /* padding: 20px; */
   font-style:normal;
   color: aliceblue;
   background-color: #282c34;
+}
+footer>div{
+  padding: 30px;
 }
 
 
